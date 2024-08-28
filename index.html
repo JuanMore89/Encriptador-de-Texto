@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es-co">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Juan Morales</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+    <img class="a-logo" src="./assets/Logo.png">
+    </header>
+    <main>
+        <section class="contenido">
+        <div class="encriptar">
+        <input class="texto-a-encriptar" placeholder="Ingrese el texto aqui"></input>
+        <div class="aviso">
+        <img class="logo-aviso" src="./assets/bi_exclamation-circle-fill.png">
+        <p class="aviso-texto">Solo letras minúsculas y sin acentos</p>
+        </div>
+        </div>
+        <div class="botones">
+            <button class="boton-encriptar">Encriptar</button>
+            <button class="boton-desencriptar">Desencriptar</button>
+        </div>
+        </section>
+        <div class="encriptado-desencriptado">
+            <img class="muñeco" src="./assets/Muñeco.png" alt="Muñeco">
+            <div class="texto-muñeco">
+                <p class="nomsg">Ningún mensaje fue encontrado</p>
+                <p class="ingtexto">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="resultado-contenedor">
+                <p class="resultado-texto"></p>
+            </div>
+            <button class="btn-copiar" style="display: none;">Copiar</button>
+        </div>
+        
+        
+    </main>
+    <footer>
+        <p>Página desarrollada por Juan David Morales Guzmán
+            </p>
+        </footer>
+        <script src="./app.js"></script>
+</body>
+</html>
